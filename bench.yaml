@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/sanpush_aes
+  original_url: https://github.com/cambridgeinstitutetechnologyblr-santosh/sanpush_aes
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_santosh_aes_sbox
+  project: AES S-Box Accelerator
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 953ba305d7bdc9fec15fa1f7edfa8977f4a04487
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_santosh_aes_sbox
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_santosh_aes_sbox
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:22:54Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_santosh_aes_sbox
+- upstream/main
